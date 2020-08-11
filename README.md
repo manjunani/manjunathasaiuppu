@@ -1,2 +1,2 @@
-# manjunathasaiuppu.github.io
+# manjunathasaiuppu
 My Portfolio 
