@@ -10125,7 +10125,7 @@ body {
 @media (min-width: 992px) {
     body {
         padding-top: 0;
-        padding-left: 17rem;
+        padding-left: 0px;
     }
 }
 
@@ -10214,7 +10214,7 @@ p.lead {
     color: #fff;
     border-radius: 100%;
     font-size: 1.5rem;
-    margin-right: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 .social-icons .social-icon:last-child {
