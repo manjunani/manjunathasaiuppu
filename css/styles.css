@@ -10230,6 +10230,7 @@ p.lead {
 }
 
 section.resume-section {
+    margin:auto;
     display: flex;
     align-items: center;
     padding-left: 1rem;
