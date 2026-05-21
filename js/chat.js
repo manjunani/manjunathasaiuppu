@@ -4,7 +4,7 @@
    Get a free key at https://openrouter.ai
    Set a spending limit in OR dashboard.
 ═══════════════════════════════════════════════ */
-const OPENROUTER_API_KEY = 'sk-or-v1-REPLACE_ME';
+const OPENROUTER_API_KEY = '__OPENROUTER_API_KEY__';
 const OPENROUTER_MODEL = 'meta-llama/llama-3.1-8b-instruct:free';
 const CONTACT_EMAIL = 'manjunatha16.512@gmail.com';
 
