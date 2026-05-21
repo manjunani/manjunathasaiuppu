@@ -1,73 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Manjunatha Sai Uppu</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Manjunatha Sai Uppu — Senior Product Engineer at MathCo, Bangalore. Builder of rust-oxide, hermes-agent, and 153 other experiments. 👽" />
+  <meta name="author" content="Manjunatha Sai Uppu" />
+  <meta property="og:title" content="Manjunatha Sai Uppu" />
+  <meta property="og:description" content="Senior Product Engineer · AI Agent Builder · Mobile Photographer · Alien 👽" />
+  <meta property="og:type" content="website" />
+  <title>Manjunatha Sai Uppu</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link href="css/styles.css" rel="stylesheet" />
 </head>
-
 <body id="page-top">
-    <!-- Navigation-->
-    <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <center>
-                    <h2 class="mb-5">
-                        Manjunatha Sai
-                        <span class="text-primary">Uppu</span>
-                    </h2>
-                    <div class="social-icons">
-                        <a class="social-icon" href="./assets/files/Manjunatha_Uppu_Resume.pdf"
-                            title="Manjunatha's Resume" target="_blank"><i class="fa fa-file"></i></a>
-                        <a class="social-icon" href="mailto:manjunatha16.512@gmail.com"
-                            title="manjunatha16.512@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-                        <a class="social-icon" href="https://www.linkedin.com/in/manjunathasai/"
-                            title="Manjunatha's Linkedin profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" href="https://github.com/manjunani" target="_blank"
-                            title="Manjunatha's Github profile"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="https://twitter.com/manjunatha_uppu" target="_blank"
-                            title="Manjunatha's Twitter profile"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="https://www.facebook.com/manju.nani.351" target="_blank"
-                            title="Manjunatha's Facebook profile"><i class="fab fa-facebook-f"></i></a>
-                        <a class="social-icon" href="https://www.instagram.com/manjunatha_uppu/?hl=en" target="_blank"
-                            title="Manjunatha's Instagram profile"><i class="fab fa-instagram"></i></a>
-                        <a class="social-icon" href="https://medium.com/@manjunatha16.512" target="_blank"
-                            title="Manjunatha's Medium profile"><i class="fab fa-medium"></i></a>
-                        <a class="social-icon" href="https://stackoverflow.com/users/13198079/manjunatha-sai-uppu"
-                            target="_blank" title="Manjunatha's Stack-Overflow profile"><i
-                                class="fab fa-stack-overflow"></i></a>
-                        <a class="social-icon" href="https://www.reddit.com/user/manjunatha_uppu" target="_blank"
-                            title="Manjunatha's Reddit profile"><i class="fab fa-reddit"></i></a>
-                        <a class="social-icon"
-                            href="https://www.youtube.com/channel/UCYwBuVNo8Z6mHO4nBt80Jng?view_as=subscriber"
-                            target="_blank" title="Manjunatha's Youtube channel"><i class="fab fa-youtube"></i></a>
-                        <a class="social-icon" href="https://www.slideshare.net/ManjunathaSai" target="_blank"
-                            title="Manjunatha's Slideshare profile"><i class="fab fa-slideshare"></i></a>
-                        <a class="social-icon" href="https://dev.to/manjunani" target="_blank"
-                            title="Manjunatha's Dev-Community profile"><i class="fab fa-dev"></i></a>
-                    </div>
-                </center>
-            </div>
-        </section>
-    </div>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-    <!-- Third party plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <!-- Core theme JS-->
-    <!-- <script src="js/scripts.js"></script> -->
-</body>
 
+  <!-- NAV -->
+  <nav id="navbar" aria-label="Main navigation">
+    <a href="#home" class="nav-logo">MSU</a>
+    <div class="nav-links" role="list">
+      <a href="#repos" role="listitem">Repos</a>
+      <a href="#graveyard" role="listitem">Graveyard</a>
+      <a href="#photos" role="listitem">Photos</a>
+      <a href="#youtube" role="listitem">YouTube</a>
+      <a href="#exposure" role="listitem">Exposure</a>
+    </div>
+    <div class="nav-right">
+      <button class="chat-fab-nav" id="chat-trigger-nav" aria-label="Chat with Manjunatha">👽</button>
+      <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- MOBILE NAV OVERLAY -->
+  <div class="mobile-overlay" id="mobile-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Navigation menu">
+    <button class="mobile-close" id="mobile-close" aria-label="Close navigation menu">✕</button>
+    <nav class="mobile-nav-links" aria-label="Mobile navigation">
+      <a href="#repos" class="mobile-link">Repos</a>
+      <a href="#graveyard" class="mobile-link">Graveyard</a>
+      <a href="#photos" class="mobile-link">Photos</a>
+      <a href="#youtube" class="mobile-link">YouTube</a>
+      <a href="#exposure" class="mobile-link">Exposure</a>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <section id="home" class="section hero-section">
+    <div class="glow glow-green hero-glow-1"></div>
+    <div class="glow glow-violet hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-badge">$ whoami → alien · builder · photographer</div>
+      <h1 class="hero-name">
+        MANJU<span class="name-green">NATHA</span><br>
+        SAI <span class="name-violet">UPPU</span>
+      </h1>
+      <p class="hero-role">Senior Product Engineer · MathCo · Bangalore</p>
+      <div class="hero-chips">
+        <span class="chip chip-green">rust-oxide</span>
+        <span class="chip chip-violet">hermes-agent</span>
+        <span class="chip chip-green">Python</span>
+        <span class="chip chip-violet">AI/ML</span>
+        <span class="chip chip-muted">153 repos</span>
+        <span class="chip chip-muted">📷 Photographer</span>
+      </div>
+      <p class="hero-bio">
+        Alien-identified engineer breaking cloud services to learn them. Currently building
+        <a href="https://github.com/manjunani/rust-oxide" target="_blank" rel="noopener">rust-oxide</a>
+        — an Agent-Native OS in Rust — and
+        <a href="https://github.com/manjunani/hermes-agent" target="_blank" rel="noopener">hermes-agent</a>.
+        Six-year Dev.to member · Hacktoberfest veteran · Mobile photographer by night.
+      </p>
+      <div class="social-icons" aria-label="Social links">
+        <a href="assets/files/Manjunatha_Uppu_Resume.pdf" target="_blank" rel="noopener" title="Resume" class="social-icon"><i class="fa fa-file"></i></a>
+        <a href="mailto:manjunatha16.512@gmail.com" title="Email" class="social-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://github.com/manjunani" target="_blank" rel="noopener" title="GitHub" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/manjunathasai/" target="_blank" rel="noopener" title="LinkedIn" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://dev.to/manjunani" target="_blank" rel="noopener" title="Dev.to" class="social-icon"><i class="fab fa-dev"></i></a>
+        <a href="https://twitter.com/manjunatha_uppu" target="_blank" rel="noopener" title="Twitter" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://medium.com/@manjunatha16.512" target="_blank" rel="noopener" title="Medium" class="social-icon"><i class="fab fa-medium"></i></a>
+        <a href="https://stackoverflow.com/users/13198079/manjunatha-sai-uppu" target="_blank" rel="noopener" title="Stack Overflow" class="social-icon"><i class="fab fa-stack-overflow"></i></a>
+        <a href="https://www.youtube.com/channel/UCYwBuVNo8Z6mHO4nBt80Jng" target="_blank" rel="noopener" title="YouTube" class="social-icon"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/manjunatha_uppu/" target="_blank" rel="noopener" title="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.reddit.com/user/manjunatha_uppu" target="_blank" rel="noopener" title="Reddit" class="social-icon"><i class="fab fa-reddit"></i></a>
+        <a href="https://www.facebook.com/manju.nani.351" target="_blank" rel="noopener" title="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.slideshare.net/ManjunathaSai" target="_blank" rel="noopener" title="SlideShare" class="social-icon"><i class="fab fa-slideshare"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- REPOS -->
+  <section id="repos" class="section repos-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title"><span class="mono">$ ls -la ~/projects</span></h2>
+        <p class="section-sub">Own projects only · sorted by recent activity · <a href="https://github.com/manjunani" target="_blank" rel="noopener">view all on GitHub →</a></p>
+      </div>
+      <div id="repos-list" class="repos-list" aria-label="GitHub repositories">
+        <div class="repo-skeleton"></div>
+        <div class="repo-skeleton"></div>
+        <div class="repo-skeleton"></div>
+      </div>
+      <button id="repos-load-more" class="btn-load-more" aria-label="Load more repositories" hidden>
+        Load more repos
+      </button>
+    </div>
+  </section>
+
+  <!-- GRAVEYARD -->
+  <section id="graveyard" class="section graveyard-section">
+    <div class="glow glow-violet graveyard-glow"></div>
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title">💀 The Graveyard</h2>
+        <p class="section-sub">Projects that didn't make it. May they rest in peace.</p>
+      </div>
+      <div class="graveyard-grid" id="graveyard-grid" aria-label="Dead projects">
+      </div>
+    </div>
+  </section>
+
+  <!-- PHOTOS -->
+  <section id="photos" class="section photos-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title">📷 Through the Lens</h2>
+        <p class="section-sub">Full Stack Dev by day. Mobile Photographer by night.</p>
+      </div>
+      <div class="photos-grid" id="photos-grid" aria-label="Photography gallery">
+        <div class="photos-empty">
+          <p>📷 Photos coming soon</p>
+          <a href="https://www.instagram.com/manjunatha_uppu/" target="_blank" rel="noopener" class="btn-outline">
+            Check Instagram →
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo lightbox" hidden>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close lightbox">✕</button>
+      <button class="lightbox-prev" id="lightbox-prev" aria-label="Previous photo">‹</button>
+      <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      <button class="lightbox-next" id="lightbox-next" aria-label="Next photo">›</button>
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </section>
+
+  <!-- YOUTUBE -->
+  <section id="youtube" class="section youtube-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title">🎬 On Camera</h2>
+        <p class="section-sub"><a href="https://www.youtube.com/channel/UCYwBuVNo8Z6mHO4nBt80Jng" target="_blank" rel="noopener">View all on YouTube →</a></p>
+      </div>
+      <div class="youtube-grid" id="youtube-grid">
+        <div class="youtube-empty">
+          <p>🎬 Videos coming soon</p>
+          <a href="https://www.youtube.com/channel/UCYwBuVNo8Z6mHO4nBt80Jng" target="_blank" rel="noopener" class="btn-outline">
+            View Channel →
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPOSURE -->
+  <section id="exposure" class="section exposure-section">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2 class="section-title">🔗 Exposure</h2>
+        <p class="section-sub">Thoughts, posts, and signal from across the internet.</p>
+      </div>
+      <h3 class="exposure-subtitle">Dev.to Articles</h3>
+      <div id="articles-grid" class="articles-grid" aria-label="Dev.to articles">
+        <div class="article-skeleton"></div>
+        <div class="article-skeleton"></div>
+        <div class="article-skeleton"></div>
+      </div>
+      <a href="https://dev.to/manjunani" target="_blank" rel="noopener" class="btn-outline exposure-more">
+        Read all on Dev.to →
+      </a>
+      <h3 class="exposure-subtitle" style="margin-top:48px;">Featured Posts</h3>
+      <div class="social-posts-grid" id="social-posts-grid"></div>
+    </div>
+  </section>
+
+  <!-- CHAT FAB -->
+  <button class="chat-fab" id="chat-trigger" aria-label="Chat with Manjunatha" title="Ask me anything 👽">👽</button>
+
+  <!-- CHAT MODAL -->
+  <div class="chat-modal" id="chat-modal" role="dialog" aria-modal="true" aria-label="Chat with Manjunatha Sai Uppu" hidden>
+    <div class="chat-header">
+      <div class="chat-avatar" aria-hidden="true">👽</div>
+      <div class="chat-meta">
+        <div class="chat-name">Manjunatha Sai Uppu</div>
+        <div class="chat-status">AI-powered · ask me anything</div>
+      </div>
+      <button class="chat-close" id="chat-close" aria-label="Close chat">✕</button>
+    </div>
+    <div class="chat-messages" id="chat-messages" aria-live="polite" aria-label="Chat messages"></div>
+    <div class="chat-input-area" id="chat-input-area">
+      <input type="text" class="chat-input" id="chat-input" placeholder="Ask me anything..." aria-label="Type a message" maxlength="500" />
+      <button class="chat-send" id="chat-send" aria-label="Send message"><i class="fa fa-paper-plane"></i></button>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+  <script src="js/chat.js"></script>
+</body>
 </html>
