@@ -5,7 +5,7 @@
    Set a spending limit in OR dashboard.
 ═══════════════════════════════════════════════ */
 const OPENROUTER_API_KEY = '__OPENROUTER_API_KEY__';
-const OPENROUTER_MODEL = 'openai/gpt-4o-mini:free'; // gpt-oss 120b free — verify exact slug at openrouter.ai/models
+const OPENROUTER_MODEL = 'openai/gpt-oss-120b:free';
 const CONTACT_EMAIL = 'manjunatha16.512@gmail.com';
 
 const CONNECT_KEYWORDS = ['connect', 'email', 'reach', 'contact', 'message', 'hire', 'work with you', 'get in touch'];
